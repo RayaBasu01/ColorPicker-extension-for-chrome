@@ -1,0 +1,40 @@
+body{
+    background-color: #e2dff4;
+
+}
+.wrapper{
+    width: 300px;
+    text-align: center;
+
+}
+
+.changeColorBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:#b7b4e7;
+    cursor: pointer;
+}
+
+.colorGrid{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin:2px;
+}
+
+.selectColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.colorValue{
+    margin-left: 3px;
+    font-weight: bold;
+}
